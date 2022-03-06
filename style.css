@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color:#E2B4BD;
+  }
+  
+  
+  .page {
+    width: 300px;
+    background: white;
+    border: 13px solid #9B6A6C;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 8%;
+  }
+  
+  .header {
+    font-family: 'Montserrat' ;
+    font-size: 28px;
+    color: #E2B4BD;
+    margin: 40px 0 15px 0;
+    display: inline-block;
+  }
+  
+  .feedback-input {
+    font-family: 'poppins', sans-serif;
+    color: #F1A3B6;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px;
+    border: 1px solid white;
+    border-bottom: 1px dotted #9B6A6C ;
+    width: 90%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;  
+  }
+  
+  .submit-button{
+    font-family: 'montserrat', sans-serif;
+    cursor: pointer;
+    background-color: white;
+    color: #F1A3B6;
+    font-size:24px;
+    margin: 25px 0 30px 0;
+    padding: 10px 0;
+    width: 130px;
+    border: 5px solid #9B6A6C;
+    border-radius: 25px;
+  }
+  
+  textarea {
+      height: 180px;
+      line-height: 150%;
+  }
